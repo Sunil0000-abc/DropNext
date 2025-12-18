@@ -114,5 +114,9 @@ export async function POST(request) {
   }
 }
 
+export async function GET(params) {
+  return NextResponse.json({message:"working"})
+}
+
 // curl.exe -X POST http://localhost:3000/api/cron/check-price ^
 // More?  -H "Authorization: Bearer 5c3a92d96374c7a8191c651136161e5ea444f65fe5a7abdd370308048e107d73"
